@@ -6,4 +6,4 @@ width = 5
 # We are going to calculate the area of the rectangle
 Area = length * width
 # We are going to print the area of the rectangle
-print(f'The area of the Rectangle is : [Area]')
+print(f'The area of the Rectangle is : [area]')
