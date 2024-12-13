@@ -10,9 +10,7 @@ print(f'Your monthly savings are $[monthly_savings:.2f]') #format to 2 decimal p
 # We are going to project Annual savings
 annual_interest_rate = 0.05 #5%
 # We calculate the projected savings after one year, incorporating the interest
-annually_savings = monthly_savings * 12
-projected_savings = annually_savings + (annually_savings * 0.05)
-#print monthly savings
-print(f'Your monthly savings are $[monthly_savings:.2f]')
-# print the projceted savings after including interest
-print(f'Projected savings after one year, with interest, is: $[projected_savings :.2f]') #format to 2 decimal places
+annual_savings = monthly_savings * 12
+projected_savings = annual_savings + (annual_savings * 0.05)
+# print the projected savings after including interest
+print(f'Projected savings after one year, with interest, is: $[projected_savings:.2f]') #format to 2 decimal places
