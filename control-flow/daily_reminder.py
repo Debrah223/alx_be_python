@@ -13,6 +13,9 @@ match Priority:
         reminder = f"Task: {task}\nPriority: low\nThis task can be done in the near future."
     case _:
         reminder = f"Task: {task}\nPriority: Unknown\nPlease check the task priority again."
+        # Use an if statement to modify the reminder if the task is time-bound.
+if time_bound == "yes":
+    reminder += "\nReminder: {task} is a high priority task that requires immediate attention today!"
 # Provide a Customized Reminder    
 print("\n Reminder ")
 print(reminder)
