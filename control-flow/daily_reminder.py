@@ -19,5 +19,4 @@ if time_bound == "yes":
 else:
     print(f"{task} is a low priority task. Consider completing it when you have free time.")
 # Provide a Customized Reminder    
-print("\n Reminder ")
-print(reminder)
+print(f"{task} is a {Priority} level task that requires immediate attention today! ")
