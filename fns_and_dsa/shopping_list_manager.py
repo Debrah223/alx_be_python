@@ -27,3 +27,5 @@ def display_menu():
                 print(f"{index}. {item}")
         else:
             print("\nYour shopping list is empty.")
+
+    
