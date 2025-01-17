@@ -28,4 +28,23 @@ def display_menu():
         else:
             print("\nYour shopping list is empty.")
 
+def main():
+    while True:
+        display_menu()
+        choice = input("Enter your choice (1-4): ")
+        
+        if choice == "1":
+            add_item()
+        elif choice == "2":
+            remove_item()
+        elif choice == "3":
+            view_list()
+        elif choice == "4":
+            print("Exiting the shopping list manager. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please enter a number between 1 and 4.")
+
+if __name__ == "__main__":
+    main()
     

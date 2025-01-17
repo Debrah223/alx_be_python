@@ -1,4 +1,4 @@
-""" from arithmetic_operations import perform_operation
+from arithmetic_operations import perform_operation
 
 def main():
     print("Arithmetic Operations")
@@ -10,7 +10,7 @@ def main():
     print(f"Result: {result}")
 
 if __name__ == "__main__":
-    main() """
+    main()
 """ from shopping_list_manager import display_menu
 
 def main():
