@@ -1,7 +1,7 @@
 # robust_division_calculator
 
 def safe_divide(numerator, denominator):
-    """We are goinfg to perform division with error handling.
+    """We are going to perform division with error handling.
     Args:
         numerator (any): The numerator for the division.
         denominator (any): The denominator for the division.
@@ -16,7 +16,7 @@ def safe_divide(numerator, denominator):
 
         #Attempt division
         result = numerator / denominator
-        return f"Result: {result}"
+        return f"Result: The result of the division is {result}"
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
     except ValueError:
