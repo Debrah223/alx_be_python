@@ -7,7 +7,7 @@ class Book:
         Publication year (int)
         """
         self.title = title
-        self.author - author
+        self.author = author
         self.year = year
     def __del__(self):
         """ This is a deastructor that prints a message once a book is deleted"""
