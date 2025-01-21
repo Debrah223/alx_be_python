@@ -16,7 +16,7 @@ class Book:
     def __str__(self):
         """The string represents the book instance.
         We shall then return a string describing the book in a readable format."""
-        return f"'{self.title}' by {self.author}, published in {self.year}"
+        return f"'{self.title}' by {self.author}, published in '{self.year}'"
     def __repr__(self):
         """This is the official string representation of the book instance that can be used to recreate it.
         We shall then return a string that can recreate the book instance."""
