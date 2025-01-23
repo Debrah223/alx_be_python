@@ -5,7 +5,7 @@ class Book:
         self.author = author
     def __str__(self):
         """We declare the string representation of the book and return a string describing the book"""
-        return f"'{self.title}' by {self.author}"
+        return f"Book: {self.title} by {self.author}"
     
 class EBook(Book):
     def __init__(self, title, author, file_size):
