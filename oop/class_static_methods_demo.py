@@ -1,11 +1,11 @@
 class Calculator:
     """We include the class attribute"""
-    calculation_type = "Arithmetic operations"
+    calculation_type = "Arithmetic Operations"
 
     @staticmethod
     def add(a, b):
         """We declare the static method to add to two numbers."""
-        return a+b 
+        return a + b 
     
     @classmethod
     def multiply(cls, a, b):
